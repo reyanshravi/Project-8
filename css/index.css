@@ -1,0 +1,82 @@
+*{
+    font-family: 'Roboto', serif;
+}
+body{
+    background-image: url(../images/backcover.svg);
+    background-repeat: no-repeat;    
+    background-position:right;
+    margin-bottom: -240px;
+}
+.main-div{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+/* CSS for navbar */
+nav, .nav-items{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    font-family: Roboto;
+}
+.nav-item{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+nav>img{
+    height: 30px;
+}
+.signin-btn{
+    height: 25px;
+    background-image: linear-gradient(90deg, #965CF2, #FF8ADC);
+    border: 0px;
+    border-radius: 10px;
+    color: #fff;
+    padding: 0px 20px;
+}
+
+
+/* Image section */
+img[alt="intro-img"]{
+    position: absolute;
+    right: 263px;
+    height: 85%;
+    bottom: 10px;
+}
+img[alt="vector-img"]{
+    position: relative;
+    top: 0px;
+    left: 500px;
+    height: 80px;
+}
+img[alt="vector-dot"]{
+    position: relative;
+    height: 16px;
+    left: 465px;
+    top: -55px;
+}
+
+/* content section */
+.left-section{
+    width: 31%;
+    z-index: 1;
+    padding-top: 70px;
+}
+h1{
+    color:#3e0c8d;
+    font-size: 50px;
+}
+h4{
+    width: 75%;
+    color: #3e0c8d;
+    font-weight: 200;
+    font-size: 15px;
+}
+.learn-more-btn{
+    margin-top: 30px;
+    background-image: linear-gradient(90deg, #965CF2, #FF8ADC);
+    border: 0px;
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 20px;
+}
